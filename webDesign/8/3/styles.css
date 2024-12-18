@@ -1,0 +1,113 @@
+body,html {
+    font-family: 'Courier New', Courier, monospace;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 20px;
+    background: yellowgreen;
+    border: 2px solid black;
+}
+.logo {
+    width: 250px;
+}
+.right_header {
+    text-align: center;
+}
+.nameCompany {
+    font-size: 30px;
+}
+.link {
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* MENU */
+menu {
+    background-color: brown;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+/* SEARCH */
+.search {
+    display: flex;    
+    align-items: center;
+    justify-content: end;
+    height: 70px;
+    padding: 10px;
+    background-color:blueviolet;
+}
+.search_input {
+    height: 50px;
+    width: 400px;
+}
+
+/* CONTENT */
+content {
+    display: flex;
+    height: 700px;
+}
+.content_element {
+    text-align: center;
+}
+.left_sidebar, .right_content {
+    width: 20%;
+    margin: 10px;
+}
+.main_content {
+    width: 60%;
+    background-color: brown;
+    margin: 10px;
+}
+.commercial_block {
+    height: 20%;
+    border: 1px solid black;
+
+}
+.useful_links {
+    height: 30%;
+    border: 1px solid black;
+}
+.banners {
+    height: 48%;
+    border: 1px solid black;
+}
+.news_articles {
+    height: 25%;
+    border: 1px solid black;
+}
+.events {
+    height: 53%;
+    border: 1px solid black;
+}
+.side_block {
+    margin-bottom: 2%;
+}
+.commercial_container {
+    display: flex;
+    justify-content: center;
+}
+.commercial_banner {
+    width: 90%;
+    border: 1px solid black;
+    text-align: center;
+    height: 100px;
+}
+
+footer {
+    height: 200px;
+    background-color: green;
+    border: 1px solid black;
+    margin-top: 10px;
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Массив cookies, оформление кода php</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            text-align: center;
+        }
+
+        header {
+            background-color: #495057;
+            color: white;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        .links-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .link-item {
+            display: inline-block;
+            background-color: #17a2b8;
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .link-item:hover {
+            background-color: #138496;
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            margin-top: 40px;
+            background-color: #495057;
+            color: white;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Массив cookies, оформление кода php</h1>
+    </header>
+
+    <div class="links-container">
+        <a class="link-item" href="cookies/setCookies.php">Установка cookies</a>
+        <a class="link-item" href="cookies/deleteCookies.php">Удаление cookies</a>
+        <a class="link-item" href="cookies/checkCookies.php">Проверка cookies</a>
+        <a class="link-item" href="cookies/alternative.php">Альтернативный синтаксис</a>
+    </div>
+
+</body>
+
+</html>

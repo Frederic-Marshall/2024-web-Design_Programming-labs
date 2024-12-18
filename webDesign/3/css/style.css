@@ -1,0 +1,48 @@
+p {
+    color: red;
+}
+.parGreen {
+    color: green;
+}
+#parBlue {
+    color: blue;
+}
+.fontStyles {
+    color:brown;
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+.textStyles {
+    color: darkblue;
+    text-align: center;
+    text-decoration: underline;
+    line-height: 2;
+    text-transform: uppercase;
+}
+/* body {
+    background-image: url(img.png);
+    background-color: #c9c9c9;
+    background-repeat: no-repeat;
+    background-position: top center;
+} */
+
+.weightStyles {
+    width: 700px;
+    background-color: greenyellow;
+    border: 3px dotted black;
+    text-align: center;
+    
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+
+    box-sizing: border-box;
+}

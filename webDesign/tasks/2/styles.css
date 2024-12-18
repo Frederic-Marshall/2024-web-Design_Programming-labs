@@ -1,0 +1,29 @@
+header {
+    height: 100px;
+    width: 1920px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+content {
+    display: block;
+}
+.forFlex {
+    width: 572px;
+    float: left;
+    margin: 30px;
+
+    border: 1px solid black;
+    height: 90px;
+    text-align: center;
+}
+
+footer {
+    bottom: 0;
+    width: 1920px;
+    height: 200px;
+    border: 1px solid black;
+    bottom: 0;
+    clear: both;
+    text-align: center;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Методы передачи данных (GET, POST, FILES, сессии)</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .list {
+            text-align: center;
+            background-color: white;
+            padding: 30px 40px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        .list h3 {
+            color: #007BFF;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .list a {
+            display: block;
+            background-color: #007BFF;
+            color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .list a:hover {
+            background-color: #4a148c;
+            transform: translateY(-3px);
+        }
+
+        .list a:active {
+            background-color: #38006b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="list">
+            <h3>Список подтем:</h3>
+            <a href="get-post/index.php">Работа с GET, POST, FILES</a>
+            <a href="sessions/sessions.php">Работа с сессиями</a>
+            <a href="passwords/passwordAdd.php">Работа с паролями</a>
+        </div>
+    </div>
+</body>
+</html>

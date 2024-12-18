@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Веб-дизайн | Доп. задания</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 16px;
+            margin: 0;
+            padding: 0;
+        }
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            margin: 1em;
+        }
+        .container {
+            border: 1px solid black;
+            border-radius: 7px;
+            padding: 1em;
+            cursor: pointer;
+        }
+        ul {
+            list-style-type: "👽 ";
+            line-height: 2;
+        }
+        li {
+            border-bottom: 1px solid black;
+            padding: 4px;
+        }
+        li, a {
+            text-decoration: none;
+            color: black;
+            transition: all .2s linear;
+        }
+        li:hover {
+            background-color: #6000F9;
+        }
+        a:hover {
+            color: white;
+        }
+        li:first-child {
+            border-top: 1px solid black;
+        }
+        .back {
+            background-color: #0021db;
+            color: white;
+            padding: 9px 13px;
+            font-size: 14px;
+            border-radius: 10px;
+            transition: all .2s linear;
+        }
+        .back:hover {
+            color:white;
+            background-color: #3150ff;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <h2>Особые задания: </h2>
+            <ul>
+                <li><a href="1/index.html">Задание №1</a></li>
+                <li><a href="2/index.html">Задание №2</a></li>
+            </ul>
+            <a class="back" href="javascript:window.history.back();">Назад</a>
+        </div>
+    </div>
+</body>
+</html>
